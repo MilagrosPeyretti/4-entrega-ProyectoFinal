@@ -1,0 +1,63 @@
+$color-letras: black;
+$color-encabezado: rgb(252, 188, 181); 
+$color-titulo:rgb(231, 127, 127);
+
+.encabezado {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: $color-encabezado;
+    color: $color-letras;
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+    padding: 10px 10px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    background:url('imagenes/fondo-totitas.jpg');
+    
+    .fotos-unidad {
+       
+        width: 1500px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        div{
+            p {
+                font-weight: bolder;
+                color: $color-titulo;
+                font-family: cursive;
+                text-align: center;
+                padding: 10px 10px;
+            }
+            img {
+    
+                padding: 10px 10px;
+                height: 400px;
+                width: 400px;
+            }
+            
+        }
+    }
+.letra {
+
+    color:$color-letras;
+    font-family: cursive;
+    padding: 0px 30px;
+    li {
+        line-height: 0,5cm;
+    }
+}
+
+}
+.carrusel {
+    margin-top: 20px;
+    background-color: rgba(241, 188, 107, 0.644);
+    display: flex;
+    justify-content: space-between;
+}
+.carousel {
+    width: 400px;
+}

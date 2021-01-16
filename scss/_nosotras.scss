@@ -1,0 +1,47 @@
+.nosotras {
+    height: 250px;
+    margin-top: 10px;
+
+    .lorena {
+        text-align: start;
+        p {
+            font-family: cursive;
+            color: black;
+            background-color: darkgray;
+            font-size: 20px;
+        }
+
+    }
+
+    .micaela {
+        text-align: start;
+        p {
+            font-family: cursive;
+            color: black;
+            background-color: pink;
+            font-size: 20px;
+        }
+    }
+    .camila {
+
+        text-align: start;
+        p {
+            font-family: cursive;
+            color: black;
+            background-color:  rgb(255, 196, 108);
+            font-size: 20px;
+        }
+    }
+
+    .titulo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+        font-family: cursive;
+        color: black;
+        background-color: #ffc46c;
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+}
