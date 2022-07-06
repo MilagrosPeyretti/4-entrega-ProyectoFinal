@@ -12,7 +12,6 @@
 .fotos {
   display: flex;
   justify-content: center;
-  background: url("imagenes/fondo-totitas.jpg");
 }
 .fotos .fotos-unidad {
   width: 1500px;
@@ -33,9 +32,14 @@
   width: 400px;
 }
 .fotos .letra {
+  border: 3px pink dotted;
+  list-style: none;
   color: black;
   font-family: cursive;
-  padding: 0px 30px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgba(245, 202, 226, 0.616);
+  padding: 0 30px;
 }
 .fotos .letra li {
   line-height: 0, 5cm;
@@ -54,44 +58,61 @@
 
 .nosotras {
   height: 250px;
+  width: auto;
   margin-top: 10px;
+  text-align: center;
 }
-.nosotras .lorena {
-  text-align: start;
-}
-.nosotras .lorena p {
+.nosotras .persona .lorena p {
   font-family: cursive;
   color: black;
-  background-color: darkgray;
-  font-size: 20px;
+  background-color: rgba(255, 228, 228, 0.521);
+  font-size: 30px;
 }
-.nosotras .micaela {
-  text-align: start;
+.nosotras .persona .lorena p .foto-lore {
+  height: 200px;
+  width: 300;
+  text-align: center;
 }
-.nosotras .micaela p {
+.nosotras .persona .micaela p {
   font-family: cursive;
   color: black;
-  background-color: pink;
-  font-size: 20px;
+  background-color: rgba(255, 228, 228, 0.521);
+  font-size: 30px;
 }
-.nosotras .camila {
-  text-align: start;
+.nosotras .persona .micaela p .foto-mica {
+  height: 200px;
+  width: auto;
+  text-align: center;
 }
-.nosotras .camila p {
+.nosotras .persona .camila p {
   font-family: cursive;
   color: black;
-  background-color: #ffc46c;
-  font-size: 20px;
+  background-color: rgba(255, 228, 228, 0.521);
+  font-size: 30px;
+}
+.nosotras .persona .camila p .foto-cami {
+  height: 200px;
+  width: auto;
+  text-align: center;
 }
 .nosotras .titulo {
   margin-top: 20px;
   margin-bottom: 20px;
-  display: flex;
-  justify-content: space-around;
   font-family: cursive;
   color: black;
   background-color: #ffc46c;
   font-size: 20px;
+  padding: 10px 10px;
+}
+
+.encabezado {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fcbcb5;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  font-family: cursive;
   padding: 10px 10px;
 }
 
@@ -130,10 +151,6 @@
   text-align: center;
   padding: 0px 80px;
 }
-.navbar ul li a :hover {
-  color: white;
-  font-family: cursive;
-}
 
 /*Submenu*/
 .nav-submenu {
@@ -147,6 +164,10 @@
   text-decoration: none;
   padding: 0px 20px;
 }
+.nav-submenu li a :hover {
+  color: white;
+  font-family: cursive;
+}
 
 .navbar li:hover .nav-submenu {
   display: block;
@@ -156,7 +177,7 @@
   height: 250px;
   display: flex;
   justify-content: center;
-  background-image: url("imagenes/batir.jpg");
+  background-color: #f6ffc0;
 }
 
 .section {

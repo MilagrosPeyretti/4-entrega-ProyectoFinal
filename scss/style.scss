@@ -5,6 +5,17 @@ $color-fondo: rgb(255, 196, 108);
 $color-letras: black;
 $color-encabezado: rgb(252, 188, 181); 
 
+.encabezado {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fcbcb5;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+    padding: 10px 10px;
+  }
+  
 .favicon img {
     border-radius: 50%;
 }
@@ -42,15 +53,10 @@ $color-encabezado: rgb(252, 188, 181);
                 text-align: center;
                 padding: 0px 80px;
                 
-                :hover {
-                    color: white;
-                    font-family: cursive;
                 }
-
             }
         }
     }
-}
 
 /*Submenu*/
 
@@ -64,6 +70,11 @@ $color-encabezado: rgb(252, 188, 181);
             font-family:  'Justo', cursiva;
             text-decoration: none;
             padding: 0px 20px;
+
+            :hover {
+                color: white;
+                font-family: cursive;
+            }
         }
 
     }
@@ -78,7 +89,7 @@ $color-encabezado: rgb(252, 188, 181);
     height: 250px;
     display: flex;
     justify-content: center;
-    background-image: url("imagenes/batir.jpg");
+    background-color: rgb(246, 255, 192);
  
 }
 .section {

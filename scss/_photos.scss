@@ -16,8 +16,7 @@ $color-titulo:rgb(231, 127, 127);
 .fotos {
     display: flex;
     justify-content: center;
-    background:url('imagenes/fondo-totitas.jpg');
-    
+
     .fotos-unidad {
        
         width: 1500px;
@@ -43,9 +42,14 @@ $color-titulo:rgb(231, 127, 127);
     }
 .letra {
 
+    border: 3px pink dotted;
+    list-style: none;
     color:$color-letras;
     font-family: cursive;
-    padding: 0px 30px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(245, 202, 226, 0.616);
+    padding: 0 30px;
     li {
         line-height: 0,5cm;
     }
