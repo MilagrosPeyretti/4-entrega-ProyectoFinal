@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+@media only screen and (max-width: 400pX) {
+    .body {
+       width: 200px;
+    }
+    .desayuno1,
+    .desayuno2,
+    .desayuno3,
+    .desayuno4,
+    .desayuno5,
+    .caja1,
+    .caja2,
+    .caja3,
+    .caja4,
+    .caja5,
+    .caja6,
+    .caja7,
+    .caja8,
+    .caja9,
+    .postre1,
+    .postre2,
+    .postre3,
+    .postre4,
+    .postre5,
+    .postre6,
+    .foto-lore,
+    .foto-mica,
+    .foto-cami,{
+        width: 30%;
+    }
+    .imagen {
+        width: 70%;
+        height: 70%;
+    }
+
+}
+
+@media only screen and ( min-width: 401px ) and ( max-width: 960px) {
+    .desayuno1,
+    .desayuno2,
+    .desayuno3,
+    .desayuno4,
+    .desayuno5,
+    .caja1,
+    .caja2,
+    .caja3,
+    .caja4,
+    .caja5,
+    .caja6,
+    .caja7,
+    .caja8,
+    .caja9,
+    .postre1,
+    .postre2,
+    .postre3,
+    .postre4,
+    .postre5,
+    .postre6,
+    .foto-lore,
+    .foto-mica,
+    .foto-cami {
+        width: 50% ! important ;
+    }
+    .whatsapp-bis,
+    .instagram-bis,
+    .facebook-bis {
+       width: 30%;
+    }
+    .imagen {
+        width: 100%;
+    }
+}
+
+@media only screen and ( min-width: 2000px) {
+    .fotos {
+        width: 960px;
+        margin: 0 auto;
+    }
+    .desayuno1,
+    .desayuno2,
+    .desayuno3,
+    .desayuno4,
+    .desayuno5,
+    .caja1,
+    .caja2,
+    .caja3,
+    .caja4,
+    .caja5,
+    .caja6,
+    .caja7,
+    .caja8,
+    .caja9,
+    .postre1,
+    .postre2,
+    .postre3,
+    .postre4,
+    .postre5,
+    .postre6,
+    .foto-lore,
+    .foto-mica,
+    .foto-cami{
+        width: 20%;
+    }
+
+    .header {
+        height: 400px;
+    }
+}
+
+.header-container {
+    background-image: url("imagenes/chip.jpg");
+    margin-bottom: 20px;
+    width: auto;
+    display:flex;
+    justify-content:space-around;
+}
+.nav-submenu :hover {
+    color: white;
+    font-family: cursive;
+  }
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-image: url("imagenes/fon.gif");
+}
+.nosotras .persona {
+    background-image: url("imagenes/chip.jpg");
+  }
+
+.bg-dark {
+    background-image: url("imagenes/chip.jpg");
+    height: 50px;
+}

@@ -1,0 +1,68 @@
+$color-nosotras: rgba(255, 228, 228, 0.521);
+
+.nosotras {
+    height: 250px;
+    width: auto;
+    margin-top: 10px;
+    text-align: center;
+
+    .persona {
+        .lorena {
+
+            p {
+                .foto-lore {
+                    height: 200px;
+                    width: 300;
+                    text-align: center;
+                }
+             
+                font-family: cursive;
+                color: black;
+                background-color: $color-nosotras;
+                font-size: 30px;
+            }
+
+        }
+
+        .micaela {
+
+            p {
+                .foto-mica {
+                    height: 200px;
+                    width: auto;
+                    text-align: center;
+                }
+              
+                font-family: cursive;
+                color: black;
+                background-color: $color-nosotras;
+                font-size: 30px;
+            }
+        }
+        .camila {
+
+            p {
+                .foto-cami {
+                    height: 200px;
+                    width: auto;
+                    text-align: center;
+                }
+               
+                font-family: cursive;
+                color: black;
+                background-color: $color-nosotras;
+                font-size: 30px;
+            }
+        }
+    }  
+
+     .titulo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: cursive;
+        color: black;
+        background-color: #ffc46c;
+        font-size: 20px;
+         padding: 10px 10px;
+        }
+}
